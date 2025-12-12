@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioBlog.Api", "PortfolioBlog.Api\PortfolioBlog.Api.csproj", "{6814672C-32A1-4156-BF8A-990001B2B918}"
 EndProject
@@ -10,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioBlog.Domain", "PortfolioBlog.Domain\PortfolioBlog.Domain.csproj", "{929682E5-01A4-40ED-8A3C-B85CD6B4413B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioBlog.Infrastructure", "PortfolioBlog.Infrastructure\PortfolioBlog.Infrastructure.csproj", "{918E3331-2451-4E33-8AD3-48ED5C3C3A89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		PortfolioBlog.React\package.json = PortfolioBlog.React\package.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
